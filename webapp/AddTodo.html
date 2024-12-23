@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+  *{
+     margin-top:10px;
+  }
+</style>
+</head>
+<body>
+   <h2>Add ToDo:</h2>
+   <form  action="addToDo">
+     Enter ToDo Title:
+     <input type="text" id="title" name="title" required>
+     <br>
+     Enter ToDo Description:
+     <input type="text" id="desc" name="desc" >
+     <br>
+     Select Status:
+     <input type="radio" name="status" id="status" value="In pogress"> <label>In Pogress</label>
+     <input type="radio" name="status" id="status" value="Completed"> <label>Completed</label>
+     <br>
+     Enter Target Date:
+     <input type="date" id="date" name="date" required>
+     <br>
+     <button type="submit">Submit</button>
+   </form>
+</body>
+</html>
